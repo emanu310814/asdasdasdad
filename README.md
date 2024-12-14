@@ -2,13 +2,13 @@ local exploit = getexecutorname or identifyexecutor
 local support = {
     ["Fluxus"] = false,
     ["Trigon"] = false,
-    ["Codex"] = true,
+    ["Codex"] = false,
     ["Delta"] = true,
     ["Vega X"] = false,
     ["Hydrogen"] = false,
     ["alysse"] = false,
-    ["ArceusX"] = true,
-    ["Electron"] = true,
+    ["ArceusX"] = false,
+    ["Electron"] = false,
 }
 
 if support[exploit()]  then
